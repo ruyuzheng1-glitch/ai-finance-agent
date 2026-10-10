@@ -1,0 +1,18 @@
+# 生成的数据库与运行期文件
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# 密钥配置
+.env
+
+# 日志
+*.log
+
+# 依赖（本项目零依赖，但保留以防将来加依赖）
+node_modules/
+
+# 系统文件
+.DS_Store
+Thumbs.db
